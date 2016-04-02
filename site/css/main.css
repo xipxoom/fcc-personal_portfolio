@@ -1,5 +1,6 @@
 body {
-  background-image: url("http://html5up.net/uploads/demos/miniport/assets/css/images/bg.png");
+  /* Image provided by subtlepatters.com.  Edited to reduce indexed colors */
+  background-image: url("../img/concrete_seamless-min.png");
 }
 h1 {
   color: #fff;
@@ -29,6 +30,8 @@ hr:before {
 p {
   font-size: 1.3em;
 }
+
+/* Header section */
 .header {
   background-image: url("../img/fern_1280x680-min.jpg");
   background-size: cover;
@@ -65,6 +68,8 @@ p {
 .callout a:hover {
   background-color: #417d7b;
 }
+
+/* About section */
 .about {
   margin-top: 40px;
   height: 400px;
