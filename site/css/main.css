@@ -68,6 +68,16 @@ p {
 .callout a:hover {
   background-color: #417d7b;
 }
+@media (max-width: 768px) {
+  .callout {
+    width: 100%;
+    max-height: 500px;
+    top: 0;
+  }
+  .callout a {
+    padding: 10px;
+  }
+}
 
 /* About section */
 .about {
