@@ -1,3 +1,6 @@
+body {
+  background-image: url("http://html5up.net/uploads/demos/miniport/assets/css/images/bg.png");
+}
 h1 {
   color: #fff;
 }
@@ -5,12 +8,34 @@ h2 {
   color: #ddd;
   margin-bottom: 40px;
 }
+/* Completely non-standard but pretty */
+hr {
+  height: 30px;
+  border-style: solid;
+  border-color: #000;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -27px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+p {
+  font-size: 1.3em;
+}
 .header {
   background-image: url("../img/fern_1280x680-min.jpg");
   background-size: cover;
   height: 500px;
   width: 100%;
-  position: absolute;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  position: relative; /* Needed to show box shadow */
 }
 .callout {
   background-color: rgba(0, 0, 0, 0.6);
@@ -35,6 +60,21 @@ h2 {
   transition: background-color 0.5s;
 }
 .callout a:hover, .callout a:focus {
-  background-color: #417d7b;
   text-decoration: none;
+}
+.callout a:hover {
+  background-color: #417d7b;
+}
+.about {
+  margin-top: 40px;
+  height: 400px;
+  width: 95%;
+}
+.about img {
+  border-radius: 50%;
+  margin: 20px auto;
+  text-align: center;
+}
+.about h3 {
+  margin-bottom: 20px;
 }
