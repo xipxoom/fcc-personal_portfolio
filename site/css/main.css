@@ -97,10 +97,13 @@ p {
 
 /* Portfolio section */
 .portfolio {
-  margin-top: 40px
+  margin-top: 40px;
 }
 @media (max-width: 768px) {
   .portfolio {
     margin-top: 350px;  /* Workaround for odd behavior with above hr */
   }
+}
+.portfolio img {
+  margin: 0 auto;
 }
