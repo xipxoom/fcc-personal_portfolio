@@ -100,14 +100,11 @@ p {
 }
 .portfolio img {
   margin: 0 auto;
-  height: 400px;
-}
-.portfolio-row {
-  height: 400px;
+  height: 300px;
 }
 .portfolio-text-parent {
   display: table;
-  height: 400px;
+  height: 300px;
 }
 .portfolio-text {
   display: table-cell;
