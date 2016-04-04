@@ -24,6 +24,8 @@ ubiquitous [personal portfolio webpage](https://www.freecodecamp.com/challenges/
 ## Notes:
 The social media icons don't actually link anywhere yet because I'm not quite ready to release that information.  Sorry!  I'm not incredibly hard to find if you really need to reach out to me.
 
+Hosted on [codepen](http://codepen.io/xipxoom/full/aNVBmR/).
+
 ## Todo:
 * Replace placeholder images with actual projects.
 * Not thrilled with the footer.
