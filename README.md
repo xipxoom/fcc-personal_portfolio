@@ -17,3 +17,14 @@ ubiquitous [personal portfolio webpage](https://www.freecodecamp.com/challenges/
 ## Technology and Libraries:
 *  Basic html/css.  This much should be obvious.
 *  Once again, I will make use of bootstrap.  The layout system just makes things so convenient.
+*  jQuery for the scrolling effect.
+*  Social media icons provided under [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).  Sourced from [iconfinder](https://www.iconfinder.com/iconsets/black-white-social-media) and authored by [Alfredo](https://creativemarket.com/HighOnGraphics).
+*  Placeholder images from [Lorempixel](http://lorempixel.com).
+
+## Notes:
+The social media icons don't actually link anywhere yet because I'm not quite ready to release that information.  Sorry!  I'm not incredibly hard to find if you really need to reach out to me.
+
+## Todo:
+* Replace placeholder images with actual projects.
+* Not thrilled with the footer.
+* Social media icons can be edited to match the color scheme.
