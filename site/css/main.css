@@ -86,24 +86,17 @@ p {
 /* About section */
 .about {
   margin-top: 40px;
-  height: 400px;
   width: 95%;
 }
 .about img {
   border-radius: 50%;
   margin: 20px auto;
-  text-align: center;
+  max-width: 250px;
 }
 
 /* Portfolio section */
 .portfolio {
   margin-top: 40px;
-}
-  /* Workaround for odd behavior with above hr */
-@media (max-width: 768px) {
-  .portfolio {
-    margin-top: 350px;
-  }
 }
 .portfolio img {
   margin: 0 auto;
@@ -124,4 +117,7 @@ p {
   .portfolio-text-parent {
     height:auto;
   }
+}
+main {
+  margin: 0 2%;
 }
