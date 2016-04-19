@@ -116,6 +116,7 @@ p {
   height: 300px;
 }
 .portfolio-text {
+  padding-top: 15px;
   display: table-cell;
   vertical-align: middle;
 }
@@ -125,7 +126,7 @@ p {
   }
 }
 .portfolio .row {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 /* Contact section */
